@@ -1,0 +1,281 @@
+set_robust_list(0x72fa0aa88da0, 24)     = 0
+getpid()                                = 2977
+prctl(PR_SET_NAME, "stress-ng-cpu")     = 0
+getpid()                                = 2977
+rt_sigaction(SIGINT, {sa_handler=0x5a687d0f94f0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x72fa0a445330}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=0x5a687d0f94f0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x72fa0a445330}, NULL, 8) = 0
+rt_sigaction(SIGALRM, {sa_handler=0x5a687d0f9520, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x72fa0a445330}, NULL, 8) = 0
+prctl(PR_SET_PDEATHSIG, SIGALRM)        = 0
+prlimit64(0, RLIMIT_CORE, NULL, {rlim_cur=0, rlim_max=0}) = 0
+prlimit64(0, RLIMIT_CORE, {rlim_cur=0, rlim_max=0}, NULL) = 0
+prlimit64(0, RLIMIT_CORE, {rlim_cur=0, rlim_max=0}, NULL) = 0
+openat(AT_FDCWD, "/proc/self/coredump_filter", O_WRONLY) = 4
+write(4, "0x00", 4)                     = 4
+close(4)                                = 0
+prctl(PR_SET_NAME, "stress-ng-cpu")     = 0
+getpid()                                = 2977
+getppid()                               = 2975
+sysinfo({uptime=1995, loads=[5248, 2848, 3744], totalram=4106080256, freeram=2317692928, sharedram=55164928, bufferram=48848896, totalswap=4104122368, freeswap=4104122368, procs=547, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+getrusage(RUSAGE_SELF, {ru_utime={tv_sec=0, tv_usec=2463}, ru_stime={tv_sec=0, tv_usec=0}, ...}) = 0
+sysinfo({uptime=1995, loads=[5248, 2848, 3744], totalram=4106080256, freeram=2317692928, sharedram=55164928, bufferram=48848896, totalswap=4104122368, freeswap=4104122368, procs=547, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+prlimit64(0, RLIMIT_AS, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_AS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_CPU, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_CPU, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_DATA, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_DATA, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_FSIZE, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_FSIZE, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_LOCKS, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_LOCKS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_MEMLOCK, NULL, {rlim_cur=501228*1024, rlim_max=501228*1024}) = 0
+prlimit64(0, RLIMIT_MEMLOCK, {rlim_cur=501228*1024, rlim_max=501228*1024}, NULL) = 0
+prlimit64(0, RLIMIT_MSGQUEUE, NULL, {rlim_cur=800*1024, rlim_max=800*1024}) = 0
+prlimit64(0, RLIMIT_MSGQUEUE, {rlim_cur=800*1024, rlim_max=800*1024}, NULL) = 0
+prlimit64(0, RLIMIT_NICE, NULL, {rlim_cur=0, rlim_max=0}) = 0
+prlimit64(0, RLIMIT_NICE, {rlim_cur=0, rlim_max=0}, NULL) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}, NULL) = 0
+prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=15346, rlim_max=15346}) = 0
+prlimit64(0, RLIMIT_NPROC, {rlim_cur=15346, rlim_max=15346}, NULL) = 0
+prlimit64(0, RLIMIT_RSS, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_RSS, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_RTPRIO, NULL, {rlim_cur=0, rlim_max=0}) = 0
+prlimit64(0, RLIMIT_RTPRIO, {rlim_cur=0, rlim_max=0}, NULL) = 0
+prlimit64(0, RLIMIT_RTTIME, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_RTTIME, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+prlimit64(0, RLIMIT_SIGPENDING, NULL, {rlim_cur=15346, rlim_max=15346}) = 0
+prlimit64(0, RLIMIT_SIGPENDING, {rlim_cur=15346, rlim_max=15346}, NULL) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_STACK, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}, NULL) = 0
+umask(077)                              = 002
+getpid()                                = 2977
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=0}, 0x7fffc6005250) = 0
+sched_yield()                           = 0
+clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=1000000}, 0x7fffc6005250) = 0
+sched_yield()                           = 0
+alarm(5)                                = 0
+getuid()                                = 1000
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/self/oom_score_adj", O_WRONLY) = 4
+write(4, "0", 1)                        = -1 EACCES (Permission denied)
+close(4)                                = 0
+rt_sigaction(SIGILL, {sa_handler=0x5a687cac3c20, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x72fa0a445330}, NULL, 8) = 0
+prctl(PR_SET_NAME, "stress-ng-cpu")     = 0
+--- SIGILL {si_signo=SIGILL, si_code=ILL_ILLOPN, si_addr=0x5a687cb58e01} ---
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] caught "..., 78) = 78
+pipe2([4, 5], 0)                        = 0
+write(5, "H\203\354H\350\346\27\366\377\211\303\350\337\27\366\377", 16) = 16
+close(4)                                = 0
+close(5)                                = 0
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] stress-"..., 59) = 59
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  48", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  83", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  ec", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  48", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  e8", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  e6", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  17", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  f6", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  ff", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  89", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c3", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  e8", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  df", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  17", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  f6", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  ff", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] \n", 26) = 26
+pipe2([4, 5], 0)                        = 0
+write(5, "\305\311W\366\304\341\313*\353\211\300\273\350\3\0\0", 16) = 16
+close(4)                                = 0
+close(5)                                = 0
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] stress-"..., 59) = 59
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] <c5>", 29) = 29
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] c9", 27) = 27
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  57", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  f6", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c4", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  e1", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  cb", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  2a", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  eb", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  89", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c0", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  bb", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  e8", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  03", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  00", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  00", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] \n", 26) = 26
+pipe2([4, 5], 0)                        = 0
+write(5, "\305\323Y-\247\3^\0\304\341\313*\300\305\373\21", 16) = 16
+close(4)                                = 0
+close(5)                                = 0
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] stress-"..., 59) = 59
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c5", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  d3", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  59", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  2d", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  a7", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  03", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  5e", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  00", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c4", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  e1", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  cb", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  2a", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c0", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  c5", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  fb", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977]  11", 28) = 28
+getpid()                                = 2977
+write(1, "stress-ng: debug: [2977] \n", 26) = 26
+exit_group(1)                           = ?
++++ exited with 1 +++
